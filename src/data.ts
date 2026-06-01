@@ -37,7 +37,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: 'Burger + Chips + 500ml Pepsi Combo',
     price: 2.00,
     description: 'The perfect meal combo for lunch.',
-    image: ComboMeal
+    image: ComboMeal,
     badge: 'BEST VALUE'
   }
 ];
