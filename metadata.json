@@ -1,0 +1,6 @@
+{
+  "name": "Taque's Kota",
+  "description": "A premium responsive web experience for Taque's Kota, a campus-based mobile food business serving fresh Kasi flats, burgers, chips, and delicious student-friendly combos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

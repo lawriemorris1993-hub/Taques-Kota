@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Poppins", "Inter", sans-serif;
+  --color-brand-beige: #D9C7A3;
+  --color-brand-dark: #111111;
+  --color-brand-dark-soft: #1a1a1a;
+  --color-brand-white: #FFFFFF;
+}
+
+@utility bento-card {
+  background: #1a1a1a;
+  border: 1px solid rgba(217, 199, 163, 0.2);
+  border-radius: 16px;
+  padding: 24px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@utility bento-card-hover {
+  &:hover {
+    border-color: #D9C7A3;
+    background: #222222;
+    box-shadow: 0 10px 30px -10px rgba(217, 199, 163, 0.15);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #111111;
+  color: #FFFFFF;
+  overflow-x: hidden;
+}
+
+/* Custom scrollbar styling for a high-end restaurant feel */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #111111;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D9C7A3;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #c2b08f;
+}
