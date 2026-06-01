@@ -1,7 +1,7 @@
 import { MenuItem, Feature } from './types';
-import KasiKota from '/src/assets/images/kasi_kota_1780331989837.png';
+import KasiKota from '/src/assets/images/kasi_kota_1780331989837.jpg';
 import classicBurger from '/src/assets/images/classic_burger_1780332010782.png';
-import KasiChips from '/src/assets/images/kasi_chips_1780332029189.png';
+import KasiChips from '/src/assets/images/kasi_chips_1780332029189.jpg';
 import ComboMeal from '/src/assets/images/combo_meal_1780332052349.png';
 import HeroBanner from '/src/assets/images/hero_banner_1780331972483.png';
 
