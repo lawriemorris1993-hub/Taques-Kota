@@ -2,11 +2,13 @@ import { MenuItem, Feature } from './types';
 import KasiKota from '/src/assets/images/kasi_kota_1780331989837.png';
 import classicBurger from '/src/assets/images/classic_burger_1780332010782.png';
 import KasiChips from '/src/assets/images/kasi_chips_1780332029189.png';
+import ComboMeal from '/src/assets/images/combo_meal_1780332052349.png';
+import HeroBanner from '/src/assets/images/hero_banner_1780331972483.png';
 
 export const WHATSAPP_NUMBER = '+263 774 675 739';
 export const WHATSAPP_RAW_LINK = 'https://wa.me/263774675739';
 
-export const HERO_IMAGE = '/src/assets/images/hero_banner_1780331972483.png';
+export const HERO_IMAGE = HeroBanner
 
 export const MENU_ITEMS: MenuItem[] = [
   {
@@ -35,7 +37,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: 'Burger + Chips + 500ml Pepsi Combo',
     price: 2.00,
     description: 'The perfect meal combo for lunch.',
-    image: '/src/assets/images/combo_meal_1780332052349.png',
+    image: ComboMeal
     badge: 'BEST VALUE'
   }
 ];
